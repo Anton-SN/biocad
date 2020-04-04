@@ -20,7 +20,7 @@ class Main extends Component {
 }
 
 const mapState = state => ({
-  l: state.language,
+  l: state.language.language,
 });
 
 export default connect(mapState)(Main);

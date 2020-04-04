@@ -1,7 +1,8 @@
-const initialState = {
-  language: 'rus',
-};
+import { combineReducers } from 'redux';
+import language from './language';
 
-export default function userstate(state = initialState) {
-  return state;
-}
+const rootReducer = combineReducers({
+  language,
+});
+
+export default rootReducer;

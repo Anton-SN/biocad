@@ -3,9 +3,9 @@ import eng from './eng.json';
 
 const getLang = lang => {
   switch (lang) {
-    case 'rus':
+    case 'RUS':
       return rus;
-    case 'eng':
+    case 'ENG':
       return eng;
     default:
       return rus;
