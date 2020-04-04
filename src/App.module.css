@@ -1,5 +1,8 @@
 .Content {
   height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background: gray;
   display: flex;
   flex-direction: column;
   align-items: center;

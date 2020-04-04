@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import t from '../../locales/t';
-import './App.css';
+// import styles from './Main.module.css';
 
 class Main extends Component {
   static propTypes = {
@@ -10,7 +10,6 @@ class Main extends Component {
   };
   render() {
     const { l } = this.props;
-
     return (
       <div>
         <p>{t('main.title', l)}</p>

@@ -1,0 +1,14 @@
+.content {
+  position: absolute;
+  margin-top: 30px;
+  right: 15%;
+}
+
+.conteinerBtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteinerBtn__item {
+  margin: 0 15px;
+}

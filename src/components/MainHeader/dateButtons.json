@@ -1,0 +1,6 @@
+{
+  "buttons": [
+    { "id":1,  "pathname": "/", "to": "/", "title": "home" },
+    { "id":2,  "pathname": "/search", "to": "/search", "title": "search" }
+  ]
+}

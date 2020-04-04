@@ -12,7 +12,7 @@ import store from './redux/store/configureStore';
 
 ReactDOM.render(
   <Provider store = {store}>
-    <BrowserRouter basename="/main">
+    <BrowserRouter>
         <div className={styles.Page}>
             <App />
         </div>

@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import t from '../../locales/t';
 import './App.css';
 
-function App() {
-  return <p>Search</p>;
+class Search extends Component {
+  static propTypes = {
+    l: PropTypes.string.isRequired,
+  };
+  render() {
+    const { l } = this.props;
+
+    return (
+      <div>
+        <p>{t('search.title', l)}</p>
+      </div>
+    );
+  }
 }
 
-export default App;
+const mapState = state => ({
+  l: state.language.language,
+});
+
+export default connect(mapState)(Search);

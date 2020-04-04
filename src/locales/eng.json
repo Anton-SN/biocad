@@ -1,5 +1,12 @@
 {
   "main": {
     "title": "Main"
+  },
+  "search": {
+    "title": "Search"
+  },
+  "button": {
+    "home": "Home",
+    "search": "Search"
   }
 }
