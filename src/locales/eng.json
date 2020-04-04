@@ -4,6 +4,9 @@
   },
   "search": {
     "title": "Search"
+  }, 
+  "notFound": {
+    "title": "Page not found"
   },
   "button": {
     "home": "Home",
