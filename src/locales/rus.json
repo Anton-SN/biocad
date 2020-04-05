@@ -3,7 +3,8 @@
     "title": "Домашняя страница"
   },
   "search": {
-    "title": "Поиск"
+    "title": "Поиск",
+    "inputNumber": "Введите инвентарный номер, guid или bims id"
   },
   "notFound": {
     "title": "Страница не найдена"

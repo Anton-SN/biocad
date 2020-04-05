@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import t from '../../locales/t';
-import './App.css';
+// import t from '../../locales/t';
+// import styles from './Search.module.css';
+
+import SearchInput from './SearchInput/SearchInput';
 
 class Search extends Component {
   static propTypes = {
-    l: PropTypes.string.isRequired,
+    // l: PropTypes.string.isRequired,
   };
   render() {
-    const { l } = this.props;
+    // const { l } = this.props;
 
     return (
       <div>
-        <p>{t('search.title', l)}</p>
+        {/* <p>{t('search.title', l)}</p> */}
+        <SearchInput />
       </div>
     );
   }

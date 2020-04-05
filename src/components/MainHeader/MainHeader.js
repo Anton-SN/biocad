@@ -48,46 +48,44 @@ class MainHeader extends React.Component {
       elem => elem.pathname !== pathname,
     )[0];
     return (
-      <div>
-        <div className={styles.content}>
-          <Menu
-            id="simple-menu"
-            anchorEl={anchorEl}
-            keepMounted
-            open={Boolean(anchorEl)}
-            onClose={this.handleClose}
-          >
-            <MenuItem onClick={() => this.handleChangeLanguage('RUS')}>
-              RUS
-            </MenuItem>
-            <MenuItem onClick={() => this.handleChangeLanguage('ENG')}>
-              ENG
-            </MenuItem>
-          </Menu>
-          <div className={styles.conteinerBtn}>
-            <div className={styles.conteinerBtn__item}>
-              <Button
-                aria-controls="customized-menu"
-                aria-haspopup="true"
-                variant="contained"
-                color="primary"
-                component={Link}
-                to={button.to}
-              >
-                {t(`button.${button.title}`, l)}
-              </Button>
-            </div>
-            <div className={styles.conteinerBtn__item}>
-              <Button
-                aria-controls="customized-menu"
-                aria-haspopup="true"
-                variant="contained"
-                color="primary"
-                onClick={this.handleClick}
-              >
-                {l}
-              </Button>
-            </div>
+      <div className={styles.content}>
+        <Menu
+          id="simple-menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={this.handleClose}
+        >
+          <MenuItem onClick={() => this.handleChangeLanguage('RUS')}>
+            RUS
+          </MenuItem>
+          <MenuItem onClick={() => this.handleChangeLanguage('ENG')}>
+            ENG
+          </MenuItem>
+        </Menu>
+        <div className={styles.conteinerBtn}>
+          <div className={styles.conteinerBtn__item}>
+            <Button
+              aria-controls="customized-menu"
+              aria-haspopup="true"
+              variant="contained"
+              color="primary"
+              component={Link}
+              to={button.to}
+            >
+              {t(`button.${button.title}`, l)}
+            </Button>
+          </div>
+          <div className={styles.conteinerBtn__item}>
+            <Button
+              aria-controls="customized-menu"
+              aria-haspopup="true"
+              variant="contained"
+              color="primary"
+              onClick={this.handleClick}
+            >
+              {l}
+            </Button>
           </div>
         </div>
       </div>

@@ -1,0 +1,44 @@
+.search{
+  width: 320px;
+  height: 90px;
+  margin-top: 30px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #8C8C8C;
+  align-self: flex-start;
+}
+
+.caption {
+  margin-bottom: 16px;
+  height: 24px;
+}
+
+.input__text {
+  width: 210px;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 12px;
+  font-size: 16px;
+  vertical-align: center;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 1px solid #E9E9E9;
+}
+
+.input__btn {
+  width: 90px;
+  height: 40px;
+  background: #353535;
+  border-radius: 3px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  .search {
+    display: flex;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}

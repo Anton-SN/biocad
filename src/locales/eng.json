@@ -3,7 +3,8 @@
     "title": "Main"
   },
   "search": {
-    "title": "Search"
+    "title": "Search",
+    "inputNumber": "Enter inventory number, guid or bims id"
   }, 
   "notFound": {
     "title": "Page not found"

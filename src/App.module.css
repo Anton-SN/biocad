@@ -2,8 +2,9 @@
   height: 100%;
   max-width: 1000px;
   margin: auto;
-  background: gray;
+  background: wheat;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  
 }
