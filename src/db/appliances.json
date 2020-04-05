@@ -13,9 +13,10 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-001234"
+      "tamRU": "А-001234",
+      "tamENG": "A-001234"
       }, 
-    "RUS":{
+      "RUS":{
       "typeOfEquipment": "Весы",
       "status": "Готов к работе",
       "Manufacturer": "Ohaus",
@@ -27,7 +28,8 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-001234"
+      "tamRU": "А-001234",
+      "tamENG": "A-001234"
       }
     },
     { 
@@ -43,9 +45,10 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-012345"
+      "tamRU": "А-012345",
+      "tamENG": "A-012345"
       }, 
-    "RUS":{
+      "RUS":{
       "typeOfEquipment": "Весы",
       "status": "Готов к работе",
       "Manufacturer": "Ohaus",
@@ -57,7 +60,8 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-012345"
+      "tamRU": "А-012345",
+      "tamENG": "A-012345"
       }
     },
     { 
@@ -73,9 +77,10 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-123456"
+      "tamRU": "А-123456",
+      "tamENG": "A-123456"
       }, 
-    "RUS":{
+      "RUS":{
       "typeOfEquipment": "Весы",
       "status": "Готов к работе",
       "Manufacturer": "Ohaus",
@@ -87,7 +92,8 @@
       "serialNumber": "B715976163",
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
-      "tam": "А-123456"
+      "tamRU": "А-123456",
+      "tamENG": "A-123456"
       }
     }
   ]
