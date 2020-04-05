@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 // import styles from './SearchMain.module.css';
 
 import ToolTitle from './MainToolTitle/ToolTitle';
+import Description from './MainDescription/Description';
 
 class SearchMain extends Component {
   static propTypes = {
@@ -20,7 +21,23 @@ class SearchMain extends Component {
         {tool === null ? (
           <p>Выберите Предмет</p>
         ) : (
-          <ToolTitle title={tool[l].title} image={tool[l].picture} />
+          <div>
+            <ToolTitle title={tool[l].title} image={tool[l].picture} />
+            <Description
+              typeOfEquipment={tool[l].typeOfEquipment}
+              status={tool[l].status}
+              manufacturer={tool[l].Manufacturer}
+              model={tool[l].model}
+              responsibleUnit={tool[l].responsibleUnit}
+              operationalUnit={tool[l].operationalUnit}
+              MOL={tool[l].MOL}
+              territory={tool[l].territory}
+              serialNumber={tool[l].serialNumber}
+              GUID={tool[l].GUID}
+              BimsId={tool[l].BimsId}
+              tam={l === 'ENG' ? tool[l].tamENG : tool[l].tamRU}
+            />
+          </div>
         )}
       </div>
     );

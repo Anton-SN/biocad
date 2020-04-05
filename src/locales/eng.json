@@ -4,7 +4,21 @@
   },
   "search": {
     "title": "Search",
-    "inputNumber": "Enter inventory number, guid or bims id"
+    "inputNumber": "Enter inventory number, guid or bims id",
+    "description": {
+      "typeOfEquipment": "Type of Equipment",
+      "status": "Status",
+      "manufacturer": "Manufacturer",
+      "model": "Model",
+      "responsibleUnit": "Responsible unit (repair)",
+      "operationalUnit": "Operational unit",
+      "MOL": "MOL",
+      "territory": "Territory",
+      "serialNumber": "Serial number",
+      "GUID": "GUID",
+      "BimsId": "Bims ID",
+      "tam": "TAM"
+    }
   }, 
   "notFound": {
     "title": "Page not found"

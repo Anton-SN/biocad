@@ -4,7 +4,21 @@
   },
   "search": {
     "title": "Поиск",
-    "inputNumber": "Введите инвентарный номер, guid или bims id"
+    "inputNumber": "Введите инвентарный номер, guid или bims id",
+    "description": {
+      "typeOfEquipment": "Тип оборудования",
+      "status": "Статус",
+      "manufacturer": "Изготовитель",
+      "model": "Модель",
+      "responsibleUnit": "Ответственное подразделение (ремонт)",
+      "operationalUnit": "Эксплуатирующее подразделение",
+      "MOL": "МОЛ",
+      "territory": "Территория",
+      "serialNumber": "Серийный номер",
+      "GUID": "GUID",
+      "BimsId": "Bims ID",
+      "tam": "TAM"
+    }
   },
   "notFound": {
     "title": "Страница не найдена"

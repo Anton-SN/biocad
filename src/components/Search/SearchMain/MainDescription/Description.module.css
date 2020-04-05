@@ -1,0 +1,33 @@
+.container {
+  width: 550px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.case {
+  color: #8C8C8C;
+}
+
+.value {
+  color: #444651;
+  font-weight: 700;
+}
+
+.valueEliteId {
+  color: #4990E2;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .field {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+
+  .container {
+    width: auto;
+  }
+}
