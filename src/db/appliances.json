@@ -14,7 +14,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-001234",
-      "tamENG": "A-001234"
+      "tamENG": "A-001234",
+      "picture": "scale",
+      "title": "Analytical Libra OHAUS Adventurer АХ324 (B715976163)"
       }, 
       "RUS":{
       "typeOfEquipment": "Весы",
@@ -29,7 +31,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-001234",
-      "tamENG": "A-001234"
+      "tamENG": "A-001234",
+      "picture": "scale",
+      "title": "Аналитические весы OHAUS Adventurer АХ324 (B715976163)"
       }
     },
     { 
@@ -46,7 +50,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-012345",
-      "tamENG": "A-012345"
+      "tamENG": "A-012345",
+      "picture": "scale",
+      "title": "Analytical libra OHAUS Adventurer АХ324 (012345)"
       }, 
       "RUS":{
       "typeOfEquipment": "Весы",
@@ -61,7 +67,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-012345",
-      "tamENG": "A-012345"
+      "tamENG": "A-012345",
+      "picture": "scale",
+      "title": "Аналитические весы OHAUS Adventurer АХ324 (012345)"
       }
     },
     { 
@@ -78,7 +86,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-123456",
-      "tamENG": "A-123456"
+      "tamENG": "A-123456",
+      "picture": "scale",
+      "title": "Analytical libra OHAUS Adventurer АХ324 (123456)"
       }, 
       "RUS":{
       "typeOfEquipment": "Весы",
@@ -93,7 +103,9 @@
       "GUID": "508b2a71-662e-4983-ae0c-3cb0c1cd21c5",
       "BimsId": "49db8db1-585f-4b9e-bbf0-8a59698edc8b",
       "tamRU": "А-123456",
-      "tamENG": "A-123456"
+      "tamENG": "A-123456",
+      "picture": "scale",
+      "title": "Аналитические весы OHAUS Adventurer АХ324 (123456)"
       }
     }
   ]

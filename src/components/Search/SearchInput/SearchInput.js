@@ -15,7 +15,7 @@ class SearchInput extends Component {
     super(props);
 
     this.state = {
-      toolSelection: null,
+      toolSelection: 'A-001234',
     };
   }
 
@@ -30,7 +30,7 @@ class SearchInput extends Component {
       elem =>
         elem[l].tamENG === this.state.toolSelection ||
         elem[l].tamRU === this.state.toolSelection,
-    );
+    )[0];
     onChange(tool);
     this.setState({ toolSelection: null });
     e.target.number.value = null;
@@ -60,7 +60,7 @@ class SearchInput extends Component {
         <form action="" onSubmit={this.submitTool}>
           <input
             id="number"
-            required
+            // required
             className={styles.input__text}
             type="text"
             onChange={this.inputNumber}
