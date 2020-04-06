@@ -15,7 +15,7 @@ class SearchInput extends Component {
     super(props);
 
     this.state = {
-      toolSelection: 'A-001234',
+      toolSelection: null,
     };
   }
 

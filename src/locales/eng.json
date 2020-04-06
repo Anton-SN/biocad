@@ -18,6 +18,15 @@
       "GUID": "GUID",
       "BimsId": "Bims ID",
       "tam": "TAM"
+    },
+    "report" : {
+      "m1": "1 month",
+      "m3": "3 months",
+      "m6": "6 months",
+      "m12": "12 months",
+      "calibration": "Calibration",
+      "measuring": "Measuring",
+      "using": "Using"
     }
   }, 
   "notFound": {
@@ -25,6 +34,7 @@
   },
   "button": {
     "home": "Home",
-    "search": "Search"
+    "search": "Search",
+    "report": "Generate report"
   }
 }

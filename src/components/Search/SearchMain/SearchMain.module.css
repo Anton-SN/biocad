@@ -1,0 +1,36 @@
+.container {
+  max-width: 900px;
+  display: grid;
+  grid-template-areas:  "title  description" 
+                        "report description";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 46px;
+}
+
+.title {
+  grid-area: "title";
+}
+
+.description {
+  grid-area: "description";
+  grid-column: 2;
+  grid-row: 1/3;
+}
+
+.report {
+  grid-area: "report";
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .description {
+    margin: 30px auto;
+  }
+}

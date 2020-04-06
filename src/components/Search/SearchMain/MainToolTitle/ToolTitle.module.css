@@ -23,6 +23,12 @@
   color:#353535;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    max-width: 270px;
+  }
+}
+
 @media (max-width: 700px) {
   .container {
     display: flex;
