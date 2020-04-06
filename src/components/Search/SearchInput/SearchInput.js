@@ -7,7 +7,7 @@ import styles from './SearchInput.module.css';
 class SearchInput extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired,
+    choiceTool: PropTypes.func.isRequired,
     appliances: PropTypes.objectOf(PropTypes.string).isRequired,
   };
 
@@ -24,14 +24,14 @@ class SearchInput extends Component {
   };
 
   submitTool = e => {
-    const { l, onChange, appliances } = this.props;
+    const { l, choiceTool, appliances } = this.props;
     e.preventDefault();
     const tool = appliances.appliances.filter(
       elem =>
         elem[l].tamENG === this.state.toolSelection ||
         elem[l].tamRU === this.state.toolSelection,
     )[0];
-    onChange(tool);
+    choiceTool(tool);
     this.setState({ toolSelection: null });
     e.target.number.value = null;
   };

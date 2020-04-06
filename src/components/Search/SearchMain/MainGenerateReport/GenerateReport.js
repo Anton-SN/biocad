@@ -9,13 +9,13 @@ import styles from './GenerateReport.module.css';
 class Report extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
+    generateReport: PropTypes.func.isRequired,
   };
 
   constructor(props) {
     super(props);
     this.state = {
       type: null,
-      report: null,
     };
   }
 
@@ -26,6 +26,7 @@ class Report extends Component {
 
   generateResponce = e => {
     e.preventDefault();
+    const { generateReport } = this.props;
     const currentDate = moment('10.10.2019');
     const month = e.target.month.value;
     const period = moment('10.10.2019').subtract(month, 'month');
@@ -40,7 +41,7 @@ class Report extends Component {
           '[]',
         ),
     );
-    this.setState({ report });
+    generateReport(report);
   };
 
   render() {

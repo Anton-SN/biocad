@@ -11,11 +11,12 @@ import Report from './MainGenerateReport/GenerateReport';
 class SearchMain extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
+    generateReport: PropTypes.func.isRequired,
     tool: PropTypes.objectOf(PropTypes.string).isRequired,
   };
 
   render() {
-    const { l, tool } = this.props;
+    const { l, tool, generateReport } = this.props;
 
     return (
       <div>
@@ -44,7 +45,7 @@ class SearchMain extends Component {
                 tam={l === 'ENG' ? tool[l].tamENG : tool[l].tamRU}
               />
             </div>
-            <Report className={styles.report} />
+            <Report className={styles.report} generateReport={generateReport} />
           </div>
         )}
       </div>

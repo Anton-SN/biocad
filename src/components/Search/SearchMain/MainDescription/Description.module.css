@@ -3,6 +3,7 @@
   background: #F7F7F7;
   border-radius: 5px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .case {
@@ -19,14 +20,14 @@
   font-weight: 700;
 }
 
-@media (max-width: 700px) {
-  .field {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    white-space: normal;
+@media (max-width: 900px) {
+  .container {
+    width: auto;
   }
+}
 
+
+@media (max-width: 700px) {
   .container {
     width: auto;
   }
