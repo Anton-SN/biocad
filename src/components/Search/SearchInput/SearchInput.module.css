@@ -33,6 +33,12 @@
   border: 0;
 }
 
+.input__btn__ready {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 166, 0);
+}
+
 input::-webkit-calendar-picker-indicator {
   display: none;
 }

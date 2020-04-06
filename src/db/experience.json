@@ -1,0 +1,204 @@
+{
+  "experience": [
+    {
+      "number": "1",
+      "type": "calibration",
+      "data": "04.10.19",  
+      "dataMoment": "10.04.19",       
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "2",
+      "type": "calibration",
+      "data": "04.10.19", 
+      "dataMoment": "10.04.19",       
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Петров Иван Генадьевич",
+        "ENG": "Petrov Ivan Genadevich"
+      }
+    },
+    {
+      "number": "3",
+      "type": "calibration",
+      "data": "04.10.19",   
+      "dataMoment": "10.04.19",      
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Петров Иван Генадьевич",
+        "ENG": "Petrov Ivan Genadevich"
+      }
+    },
+    {
+      "number": "4",
+      "type": "calibration",
+      "data": "04.10.19",   
+      "dataMoment": "10.04.19",      
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "90.1",
+      "offset": "-0.5",
+      "user": {
+        "RUS": "Генадьев Иван Петрович",
+        "ENG": "Genadev Ivan Petrovich"
+      }
+    },
+    {
+      "number": "5",
+      "type": "measuring",
+      "data": "04.10.19",
+      "dataMoment": "10.04.19",         
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-21.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "6",
+      "data": "04.08.19",
+      "dataMoment": "08.04.19",    
+      "type": "measuring",     
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "88.7",
+      "offset": "21.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "7",
+      "type": "using",
+      "data": "04.05.19",
+      "dataMoment": "05.04.19",         
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "8",
+      "type": "using",
+      "data": "04.01.19",  
+      "dataMoment": "01.04.19",       
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "9",
+      "type": "using",
+      "data": "04.12.18", 
+      "dataMoment": "12.04.18",        
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    },
+    {
+      "number": "10",
+      "type": "calibration",
+      "data": "04.09.19",    
+      "dataMoment": "09.04.19",      
+      "time": "10:23",
+      "solutions": [
+        {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
+        {"id": 2, "substance": "№ 2000460789536: pH 2.00"},
+        {"id": 3, "substance": "№ 2000460789536: pH 4.01"},
+        {"id": 4, "substance": "№ 2000460789536: pH 7.00"},
+        {"id": 5, "substance": "№ 2000460789536: pH 9.21"}
+      ],
+      "slope": "98.7",
+      "offset": "-0.3",
+      "user": {
+        "RUS": "Иванов Генадий Петрович",
+        "ENG": "Ivanov Genadiy Petrovich"
+      }
+    }
+  ]
+}

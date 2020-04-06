@@ -69,9 +69,12 @@ class SearchInput extends Component {
           />
           <datalist id="numberOptions">{inputOPtions}</datalist>
           <button
-            className={styles.input__btn}
+            className={`${styles.input__btn} ${
+              String(this.state.toolSelection).length === 8
+                ? styles.input__btn__ready
+                : null
+            }`}
             disabled={!(String(this.state.toolSelection).length === 8)}
-            onClick={this.choiceTool}
           >
             {t('button.search', l)}
           </button>
