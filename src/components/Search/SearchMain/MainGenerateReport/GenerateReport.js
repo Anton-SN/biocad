@@ -9,6 +9,7 @@ import styles from './GenerateReport.module.css';
 class Report extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
+    tam: PropTypes.string.isRequired,
     generateReport: PropTypes.func.isRequired,
   };
 
@@ -26,13 +27,14 @@ class Report extends Component {
 
   generateResponce = e => {
     e.preventDefault();
-    const { generateReport } = this.props;
+    const { generateReport, tam } = this.props;
     const currentDate = moment('10.10.2019');
     const month = e.target.month.value;
     const period = moment('10.10.2019').subtract(month, 'month');
     const { type } = this.state;
     const report = experience.experience.filter(
       elem =>
+        (elem.tamRU === tam || elem.tamENG === tam) &&
         elem.type === type &&
         moment(`${elem.dataMoment} ${elem.time}`).isBetween(
           period,

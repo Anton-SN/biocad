@@ -17,7 +17,7 @@
 
 .firstRow {
   display: grid;
-  grid-template-columns: auto 220px 100px 100px 220px;
+  grid-template-columns: 80px 250px 150px 100px 220px;
   grid-template-rows: 1fr;
   font-size: 13px;
   line-height: 15px;
@@ -26,7 +26,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: auto 220px 100px 100px 220px;
+  grid-template-columns: 80px 250px 150px 100px 220px;
   grid-template-rows: 1fr;
   border-bottom: 1px solid #E9E9E9;
   font-weight: 700;
@@ -38,6 +38,19 @@
 
 .row:last-child {
   border: 0;
+}
+
+.status {
+  margin-left: 10px;
+}
+
+.inaccuracy {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap {
+  word-wrap: normal;
 }
 
 @media (max-width: 900px) {
@@ -107,6 +120,15 @@
 
   .row {
     grid-template-columns: 50px 140px 50px 50px 50px;
+    
+  }
+
+  .inaccuracy {
+    flex-direction: column;
+    align-items: center;
+  } 
+  .status {
+    margin-left: 0px;
   }
 }
 

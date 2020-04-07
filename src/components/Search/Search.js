@@ -17,7 +17,7 @@ class Search extends Component {
     super(props);
     this.state = {
       tool: null,
-      report: [],
+      report: null,
     };
   }
 

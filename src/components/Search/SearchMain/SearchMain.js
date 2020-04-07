@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-// import t from '../../../locales/t';
+import t from '../../../locales/t';
 import styles from './SearchMain.module.css';
 
 import ToolTitle from './MainToolTitle/ToolTitle';
@@ -21,7 +21,7 @@ class SearchMain extends Component {
     return (
       <div>
         {tool === null ? (
-          <p>Выберите Предмет</p>
+          <p>{t('search.inputCaption', l)}</p>
         ) : (
           <div className={styles.container}>
             <ToolTitle
@@ -45,7 +45,11 @@ class SearchMain extends Component {
                 tam={l === 'ENG' ? tool[l].tamENG : tool[l].tamRU}
               />
             </div>
-            <Report className={styles.report} generateReport={generateReport} />
+            <Report
+              className={styles.report}
+              generateReport={generateReport}
+              tam={l === 'ENG' ? tool[l].tamENG : tool[l].tamRU}
+            />
           </div>
         )}
       </div>

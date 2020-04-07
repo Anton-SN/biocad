@@ -5,6 +5,7 @@
   "search": {
     "title": "Search",
     "inputNumber": "Enter inventory number, guid or bims id",
+    "inputCaption": "Select item",
     "description": {
       "typeOfEquipment": "Type of Equipment",
       "status": "Status",
@@ -27,6 +28,17 @@
       "calibration": "Calibration",
       "measuring": "Measuring",
       "using": "Using"
+    },
+    "table": {
+      "description": "No data",
+      "create": "Create report",
+      "error": "No job data",
+      "title": "Calibration report",
+      "data": "Data",
+      "sol": "Used buffer solutions",
+      "slope": "Slope, % Norm 95-105",
+      "offset": "Offset, mV Norm ±(0-20)",
+      "user": "User"
     }
   }, 
   "notFound": {

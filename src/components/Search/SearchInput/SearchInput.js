@@ -60,7 +60,6 @@ class SearchInput extends Component {
         <form action="" onSubmit={this.submitTool}>
           <input
             id="number"
-            // required
             className={styles.input__text}
             type="text"
             onChange={this.inputNumber}
