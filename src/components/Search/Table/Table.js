@@ -27,7 +27,7 @@ class Table extends Component {
               </div>
               <div>
                 {e.solutions.map((elem, i) => (
-                  <p>
+                  <p key={elem.substance}>
                     B{i + 1}: №{elem.substance}
                   </p>
                 ))}

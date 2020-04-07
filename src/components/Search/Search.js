@@ -22,7 +22,7 @@ class Search extends Component {
   }
 
   choiceTool = tool => {
-    this.setState({ tool });
+    this.setState({ tool, report: null });
   };
 
   generateReport = report => {

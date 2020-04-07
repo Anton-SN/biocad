@@ -47,7 +47,7 @@ class SearchInput extends Component {
     );
 
     const inputOPtions = appliancesrOptions.map(e => (
-      <datalist id="numberOptions" key={e.GUID}>
+      <datalist id="numberOptions" key={e[l].tamRU + e[l].tamENG}>
         <option>{e[l].tamENG}</option>
         <option>{e[l].tamRU}</option>
       </datalist>
