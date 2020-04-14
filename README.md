@@ -5,7 +5,7 @@ https://drive.google.com/open?id=1sGTMOx5TE0A2WJvh1hXtLv805jwtmpmI
 
 In the project directory, you can run:
 
-### `npm install or yarn start`
+### `npm install or yarn`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
