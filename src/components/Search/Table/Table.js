@@ -9,7 +9,29 @@ import styles from './Table.module.css';
 class Table extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
-    report: PropTypes.objectOf(PropTypes.string).isRequired,
+    report: PropTypes.arrayOf(
+      PropTypes.shape({
+        data: PropTypes.string,
+        number: PropTypes.string,
+        type: PropTypes.string,
+        dataMoment: PropTypes.string,
+        time: PropTypes.string,
+        solutions: PropTypes.arrayOf(
+          PropTypes.objectOf(
+            PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+          ),
+        ),
+        slope: PropTypes.string,
+        offset: PropTypes.string,
+        tamRU: PropTypes.string,
+        tamENG: PropTypes.string,
+        user: PropTypes.objectOf(PropTypes.string),
+      }),
+    ),
+  };
+
+  static defaultProps = {
+    report: [],
   };
 
   render() {
@@ -19,7 +41,7 @@ class Table extends Component {
         ? null
         : report.map(e => (
             // eslint-disable-next-line no-restricted-globals
-            <div className={styles.row}>
+            <div className={styles.row} key={Math.random() * 1000}>
               <div>
                 {e.data}
                 <br />

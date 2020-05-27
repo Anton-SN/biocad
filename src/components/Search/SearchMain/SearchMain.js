@@ -12,7 +12,11 @@ class SearchMain extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
     generateReport: PropTypes.func.isRequired,
-    tool: PropTypes.objectOf(PropTypes.string).isRequired,
+    tool: PropTypes.objectOf(PropTypes.objectOf(PropTypes.string)),
+  };
+
+  static defaultProps = {
+    tool: {},
   };
 
   render() {

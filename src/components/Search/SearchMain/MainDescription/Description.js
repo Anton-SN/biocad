@@ -13,7 +13,7 @@ class Description extends Component {
   render() {
     const { l, dispatch, ...otherProps } = this.props;
     const descriptionField = Object.keys(otherProps).map(e => (
-      <p>
+      <p key={e}>
         <span className={styles.case}>{t(`search.description.${e}`, l)}: </span>
         <span
           className={

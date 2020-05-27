@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import appliances from '../../db/appliances.json';
-// import t from '../../locales/t';
-// import styles from './Search.module.css';
 
 import SearchInput from './SearchInput/SearchInput';
 import SearchMain from './SearchMain/SearchMain';
@@ -32,7 +29,6 @@ class Search extends Component {
   render() {
     return (
       <div>
-        {/* <p>{t('search.title', l)}</p> */}
         <SearchInput appliances={appliances} choiceTool={this.choiceTool} />
         <SearchMain
           tool={this.state.tool}

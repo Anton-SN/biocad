@@ -28,17 +28,23 @@ class Report extends Component {
   generateResponce = e => {
     e.preventDefault();
     const { generateReport, tam } = this.props;
-    const currentDate = moment('10.10.2019');
+    const currentDate = moment()
+      .set('year', 2019)
+      .set('month', 10)
+      .set('date', 10)
+      .format('YYYY-MM-DD');
     const month = e.target.month.value;
-    const period = moment('10.10.2019').subtract(month, 'month');
+    const period = moment(currentDate)
+      .subtract(month, 'month')
+      .format('YYYY-MM-DD');
     const { type } = this.state;
     const report = experience.experience.filter(
       elem =>
         (elem.tamRU === tam || elem.tamENG === tam) &&
         elem.type === type &&
-        moment(`${elem.dataMoment} ${elem.time}`).isBetween(
-          period,
-          currentDate,
+        moment(`${elem.dataMoment}`).isBetween(
+          moment(period),
+          moment(currentDate),
           null,
           '[]',
         ),

@@ -8,7 +8,15 @@ class SearchInput extends Component {
   static propTypes = {
     l: PropTypes.string.isRequired,
     choiceTool: PropTypes.func.isRequired,
-    appliances: PropTypes.objectOf(PropTypes.string).isRequired,
+    appliances: PropTypes.objectOf(
+      PropTypes.arrayOf(
+        PropTypes.objectOf(PropTypes.objectOf(PropTypes.string)),
+      ),
+    ),
+  };
+
+  static defaultProps = {
+    appliances: {},
   };
 
   constructor(props) {

@@ -4,7 +4,7 @@
       "number": "1",
       "type": "calibration",
       "data": "04.10.19",  
-      "dataMoment": "10.04.19",       
+      "dataMoment": "2019-10-04",     
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -26,7 +26,7 @@
       "number": "2",
       "type": "calibration",
       "data": "04.10.19", 
-      "dataMoment": "10.04.19",       
+      "dataMoment": "2019-10-04",      
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -47,8 +47,8 @@
     {
       "number": "3",
       "type": "calibration",
-      "data": "04.10.19",   
-      "dataMoment": "10.04.19",      
+      "data": "04.10.19", 
+      "dataMoment": "2019-10-04",      
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -70,7 +70,7 @@
       "number": "4",
       "type": "calibration",
       "data": "04.10.19",   
-      "dataMoment": "10.04.19",      
+      "dataMoment": "2019-10-04",      
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -92,7 +92,7 @@
       "number": "5",
       "type": "measuring",
       "data": "04.10.19",
-      "dataMoment": "10.04.19",         
+      "dataMoment": "2019-10-04",        
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -113,7 +113,7 @@
     {
       "number": "6",
       "data": "04.08.19",
-      "dataMoment": "08.04.19",    
+      "dataMoment": "2019-08-04",  
       "type": "measuring",     
       "time": "10:23",
       "solutions": [
@@ -134,7 +134,7 @@
       "number": "7",
       "type": "using",
       "data": "04.05.19",
-      "dataMoment": "05.04.19",         
+      "dataMoment": "2019-04-05",         
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -154,7 +154,7 @@
       "number": "8",
       "type": "using",
       "data": "04.01.19",  
-      "dataMoment": "01.04.19",       
+      "dataMoment": "2019-04-01",     
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -176,7 +176,7 @@
       "number": "9",
       "type": "using",
       "data": "04.12.18", 
-      "dataMoment": "12.04.18",        
+      "dataMoment": "2018-12-04",      
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
@@ -198,7 +198,7 @@
       "number": "10",
       "type": "calibration",
       "data": "04.09.19",    
-      "dataMoment": "09.04.19",      
+      "dataMoment": "2019-09-04", 
       "time": "10:23",
       "solutions": [
         {"id": 1, "substance": "№ 2000460789536: pH 1.09"},
